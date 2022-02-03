@@ -1,0 +1,64 @@
+    ======  ======
+    Time:19/11/2018 9:45:08 PM
+    Title: Initiate log
+    Message: 
+    Time:19/11/2018 9:45:08 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:19/11/2018 9:45:08 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:19/11/2018 9:45:08 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:19/11/2018 9:45:08 PM
+    Title: LICENSER
+    Message: READ REGS START
+    Time:19/11/2018 9:45:08 PM
+    Title: LIC TS_KEY
+    Message: NULL
+    Time:19/11/2018 9:45:08 PM
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Time:19/11/2018 9:45:08 PM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:19/11/2018 9:45:08 PM
+    Title: LICENSER
+    Message: DS LEFT-46
+    Time:19/11/2018 9:45:08 PM
+    Title: LICENSER
+    Message: DT MARK PASSED-46.00:00:00
+    Time:19/11/2018 9:45:08 PM
+    Title: ILMValidate action
+    Message: LIC
+    Time:19/11/2018 9:45:09 PM
+    Title: LICENSER - TGO
+    Message: Start
+    Entering constructor for: Telerik.Reporting.VsPackage.VsPackage
+    Entering Initialize() of: Telerik.Reporting.VsPackage.VsPackage
+    No Telerik Reporting products found in registry
+    Entering constructor for: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    Entering Initialize() of: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    Entering constructor for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering constructor for: Telerik.Windows.Silverlight.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.Windows.Silverlight.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering constructor for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering constructor for: Telerik.WinControls.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.VSPackage.VSPackage
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.Web.UI.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Web.UI.VSPackage.VSPackage
+    Assembly resolution failed: Telerik.UserSettings.2016.2.712.0.XmlSerializers, Version=2016.2.712.0, Culture=neutral, PublicKeyToken=0dfdc51bd06071b4
+    Assembly resolution failed: Telerik.UserSettings.2018.3.1011.1.XmlSerializers, Version=2018.3.1011.1, Culture=neutral, PublicKeyToken=0dfdc51bd06071b4

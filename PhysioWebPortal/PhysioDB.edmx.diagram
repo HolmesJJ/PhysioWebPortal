@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e3eaf9839b024674bc0caf65d513f0b1" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="PHYSIODBModel.AspNetRole" Width="1.5" PointX="4" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.AspNetUserClaim" Width="1.5" PointX="8.125" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.AspNetUserLogin" Width="1.5" PointX="8.125" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.AspNetUser" Width="1.5" PointX="5.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.ExerciseVideo" Width="1.5" PointX="12.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.PatientCaregiver" Width="1.5" PointX="10.625" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.Patient" Width="1.5" PointX="2.625" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.PerformedExercis" Width="1.5" PointX="15" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHYSIODBModel.PrescribedExercis" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="PHYSIODBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.FK_PatientCaregivers_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.FK_Patients_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.FK_PatientCaregivers_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.FK_PerformedExercises_PrescribedExercises" ManuallyRouted="false" />
+        <AssociationConnector Association="PHYSIODBModel.AspNetUserRoles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="PHYSIODBModel.GiftReceived" Width="1.5" PointX="6.625" PointY="11.125" />
+        <EntityTypeShape EntityType="PHYSIODBModel.Gift" Width="1.5" PointX="8.375" PointY="11.5" />
+        <AssociationConnector Association="PHYSIODBModel.FK_GiftReceived_Gifts" />
+        <EntityTypeShape EntityType="PHYSIODBModel.HospitalStay" Width="1.5" PointX="4.625" PointY="9.625" />
+        <AssociationConnector Association="PHYSIODBModel.FK_HospitalStay_AspNetUsers" />
+        <AssociationConnector Association="PHYSIODBModel.FK_GiftReceived_HospitalStay" />
+        <AssociationConnector Association="PHYSIODBModel.FK_HospitalStay_Patients" />
+        <AssociationConnector Association="PHYSIODBModel.FK_PrescribedExercises_HospitalStay" />
+        <EntityTypeShape EntityType="PHYSIODBModel.Exercis" Width="1.5" PointX="10.125" PointY="4.875" />
+        <AssociationConnector Association="PHYSIODBModel.FK_ExerciseVideos_Exercises" />
+        <AssociationConnector Association="PHYSIODBModel.FK_PrescribedExercises_Exercises" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

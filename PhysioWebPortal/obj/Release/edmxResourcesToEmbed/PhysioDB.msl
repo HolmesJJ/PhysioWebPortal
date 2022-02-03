@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PHYSIODBModelStoreContainer" CdmEntityContainer="PHYSIODBEntities">
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="PHYSIODBModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExerciseVideos">
+      <EntityTypeMapping TypeName="PHYSIODBModel.ExerciseVideo">
+        <MappingFragment StoreEntitySet="ExerciseVideos">
+          <ScalarProperty Name="VThumbnail" ColumnName="VThumbnail" />
+          <ScalarProperty Name="VId" ColumnName="VId" />
+          <ScalarProperty Name="ExId" ColumnName="ExId" />
+          <ScalarProperty Name="VFileEnglish" ColumnName="VFileEnglish" />
+          <ScalarProperty Name="VFileMandarin" ColumnName="VFileMandarin" />
+          <ScalarProperty Name="VFileMalay" ColumnName="VFileMalay" />
+          <ScalarProperty Name="VFileTamil" ColumnName="VFileTamil" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PatientCaregivers">
+      <EntityTypeMapping TypeName="PHYSIODBModel.PatientCaregiver">
+        <MappingFragment StoreEntitySet="PatientCaregivers">
+          <ScalarProperty Name="PatientId" ColumnName="PatientId" />
+          <ScalarProperty Name="CaregiverId" ColumnName="CaregiverId" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="PHYSIODBModel.Patient">
+        <MappingFragment StoreEntitySet="Patients">
+          <ScalarProperty Name="PreferredLanguage" ColumnName="PreferredLanguage" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PatientCodeName" ColumnName="PatientCodeName" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PerformedExercises">
+      <EntityTypeMapping TypeName="PHYSIODBModel.PerformedExercis">
+        <MappingFragment StoreEntitySet="PerformedExercises">
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="PerformExId" ColumnName="PerformExId" />
+          <ScalarProperty Name="PEId" ColumnName="PEId" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+          <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+          <ScalarProperty Name="ExType" ColumnName="ExType" />
+          <ScalarProperty Name="AvgAngle" ColumnName="AvgAngle" />
+          <ScalarProperty Name="AvgHoldDuration" ColumnName="AvgHoldDuration" />
+          <ScalarProperty Name="ExVisualFile" ColumnName="ExVisualFile" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrescribedExercises">
+      <EntityTypeMapping TypeName="PHYSIODBModel.PrescribedExercis">
+        <MappingFragment StoreEntitySet="PrescribedExercises">
+          <ScalarProperty Name="PEId" ColumnName="PEId" />
+          <ScalarProperty Name="StayId" ColumnName="StayId" />
+          <ScalarProperty Name="ExId" ColumnName="ExId" />
+          <ScalarProperty Name="AssignedDate" ColumnName="AssignedDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+          <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+          <ScalarProperty Name="ExTimePerDay" ColumnName="ExTimePerDay" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="PHYSIODBModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="GiftReceiveds">
+      <EntityTypeMapping TypeName="PHYSIODBModel.GiftReceived">
+        <MappingFragment StoreEntitySet="GiftReceived">
+          <ScalarProperty Name="GivenById" ColumnName="GivenById" />
+          <ScalarProperty Name="ReceivedDateTime" ColumnName="ReceivedDateTime" />
+          <ScalarProperty Name="GiftTypeId" ColumnName="GiftTypeId" />
+          <ScalarProperty Name="StayId" ColumnName="StayId" />
+          <ScalarProperty Name="GiftReceivedId" ColumnName="GiftReceivedId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gifts">
+      <EntityTypeMapping TypeName="PHYSIODBModel.Gift">
+        <MappingFragment StoreEntitySet="Gifts">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="GiftTypeId" ColumnName="GiftTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HospitalStays">
+      <EntityTypeMapping TypeName="PHYSIODBModel.HospitalStay">
+        <MappingFragment StoreEntitySet="HospitalStay">
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="PhysiotherapistId" ColumnName="PhysiotherapistId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Pose" ColumnName="Pose" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="PatientId" ColumnName="PatientId" />
+          <ScalarProperty Name="StayId" ColumnName="StayId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exercises">
+      <EntityTypeMapping TypeName="PHYSIODBModel.Exercis">
+        <MappingFragment StoreEntitySet="Exercises">
+          <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+          <ScalarProperty Name="ExHoldDuration" ColumnName="ExHoldDuration" />
+          <ScalarProperty Name="ExAngleLyingPose" ColumnName="ExAngleLyingPose" />
+          <ScalarProperty Name="ExAngleStandingPose" ColumnName="ExAngleStandingPose" />
+          <ScalarProperty Name="ExAngleMeasureType" ColumnName="ExAngleMeasureType" />
+          <ScalarProperty Name="ExTimePerDay" ColumnName="ExTimePerDay" />
+          <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+          <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+          <ScalarProperty Name="ExDescription" ColumnName="ExDescription" />
+          <ScalarProperty Name="ExNameTamil" ColumnName="ExNameTamil" />
+          <ScalarProperty Name="ExNameMalay" ColumnName="ExNameMalay" />
+          <ScalarProperty Name="ExNameMandarin" ColumnName="ExNameMandarin" />
+          <ScalarProperty Name="ExName" ColumnName="ExName" />
+          <ScalarProperty Name="ExId" ColumnName="ExId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

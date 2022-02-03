@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PHYSIODBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AspNetRoles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaims">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogins">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUserRoles">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="nvarchar(max)" />
+          <Property Name="SecurityStamp" Type="nvarchar(max)" />
+          <Property Name="PhoneNumber" Type="nvarchar(max)" />
+          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="datetime" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exercises">
+          <Key>
+            <PropertyRef Name="ExId" />
+          </Key>
+          <Property Name="ExId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ExName" Type="varchar(max)" Nullable="false" />
+          <Property Name="ExNameMandarin" Type="varchar(max)" />
+          <Property Name="ExNameMalay" Type="varchar(max)" />
+          <Property Name="ExNameTamil" Type="varchar(max)" />
+          <Property Name="ExDescription" Type="varchar(max)" Nullable="false" />
+          <Property Name="ExSetNo" Type="int" Nullable="false" />
+          <Property Name="ExRepNo" Type="int" Nullable="false" />
+          <Property Name="ExTimePerDay" Type="int" Nullable="false" />
+          <Property Name="ExAngleMeasureType" Type="varchar(max)" />
+          <Property Name="ExAngleStandingPose" Type="float" />
+          <Property Name="ExAngleLyingPose" Type="float" />
+          <Property Name="ExHoldDuration" Type="float" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ExerciseVideos">
+          <Key>
+            <PropertyRef Name="VId" />
+          </Key>
+          <Property Name="VId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ExId" Type="int" Nullable="false" />
+          <Property Name="VFileEnglish" Type="varchar(max)" Nullable="false" />
+          <Property Name="VFileMandarin" Type="varchar(max)" />
+          <Property Name="VFileMalay" Type="varchar(max)" />
+          <Property Name="VFileTamil" Type="varchar(max)" />
+          <Property Name="VThumbnail" Type="varchar(max)" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GiftReceived">
+          <Key>
+            <PropertyRef Name="GiftReceivedId" />
+          </Key>
+          <Property Name="GiftReceivedId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StayId" Type="int" Nullable="false" />
+          <Property Name="GiftTypeId" Type="int" Nullable="false" />
+          <Property Name="ReceivedDateTime" Type="datetime" Nullable="false" />
+          <Property Name="GivenById" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Gifts">
+          <Key>
+            <PropertyRef Name="GiftTypeId" />
+          </Key>
+          <Property Name="GiftTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Description" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="HospitalStay">
+          <Key>
+            <PropertyRef Name="StayId" />
+          </Key>
+          <Property Name="StayId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PatientId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="EndDate" Type="date" Nullable="false" />
+          <Property Name="Pose" Type="int" Nullable="false" />
+          <Property Name="Remarks" Type="varchar(max)" />
+          <Property Name="PhysiotherapistId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PatientCaregivers">
+          <Key>
+            <PropertyRef Name="PatientId" />
+            <PropertyRef Name="CaregiverId" />
+          </Key>
+          <Property Name="PatientId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="CaregiverId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Patients">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="PatientCodeName" Type="varchar(max)" Nullable="false" />
+          <Property Name="Remarks" Type="varchar(max)" />
+          <Property Name="PreferredLanguage" Type="int" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PerformedExercises">
+          <Key>
+            <PropertyRef Name="PerformExId" />
+          </Key>
+          <Property Name="PerformExId" Type="int" Nullable="false" />
+          <Property Name="PEId" Type="int" Nullable="false" />
+          <Property Name="StartTime" Type="datetime" Nullable="false" />
+          <Property Name="EndTime" Type="datetime" Nullable="false" />
+          <Property Name="ExSetNo" Type="int" Nullable="false" />
+          <Property Name="ExRepNo" Type="int" Nullable="false" />
+          <Property Name="ExType" Type="int" Nullable="false" />
+          <Property Name="AvgAngle" Type="float" Nullable="false" />
+          <Property Name="AvgHoldDuration" Type="float" />
+          <Property Name="ExVisualFile" Type="varchar(max)" />
+          <Property Name="Score" Type="int" Nullable="false" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PrescribedExercises">
+          <Key>
+            <PropertyRef Name="PEId" />
+          </Key>
+          <Property Name="PEId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StayId" Type="int" Nullable="false" />
+          <Property Name="ExId" Type="int" Nullable="false" />
+          <Property Name="AssignedDate" Type="datetime" Nullable="false" />
+          <Property Name="EndDate" Type="datetime" />
+          <Property Name="ExSetNo" Type="int" Nullable="false" />
+          <Property Name="ExRepNo" Type="int" Nullable="false" />
+          <Property Name="ExTimePerDay" Type="int" Nullable="false" />
+          <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+          <Property Name="LastUpdatedBy" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+          <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ExerciseVideos_Exercises">
+          <End Role="Exercises" Type="Self.Exercises" Multiplicity="1" />
+          <End Role="ExerciseVideos" Type="Self.ExerciseVideos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercises">
+              <PropertyRef Name="ExId" />
+            </Principal>
+            <Dependent Role="ExerciseVideos">
+              <PropertyRef Name="ExId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GiftReceived_Gifts">
+          <End Role="Gifts" Type="Self.Gifts" Multiplicity="1" />
+          <End Role="GiftReceived" Type="Self.GiftReceived" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gifts">
+              <PropertyRef Name="GiftTypeId" />
+            </Principal>
+            <Dependent Role="GiftReceived">
+              <PropertyRef Name="GiftTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GiftReceived_HospitalStay">
+          <End Role="HospitalStay" Type="Self.HospitalStay" Multiplicity="1" />
+          <End Role="GiftReceived" Type="Self.GiftReceived" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HospitalStay">
+              <PropertyRef Name="StayId" />
+            </Principal>
+            <Dependent Role="GiftReceived">
+              <PropertyRef Name="StayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HospitalStay_AspNetUsers">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="HospitalStay" Type="Self.HospitalStay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="HospitalStay">
+              <PropertyRef Name="PhysiotherapistId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HospitalStay_Patients">
+          <End Role="Patients" Type="Self.Patients" Multiplicity="1" />
+          <End Role="HospitalStay" Type="Self.HospitalStay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patients">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="HospitalStay">
+              <PropertyRef Name="PatientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PatientCaregivers_AspNetUsers">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="PatientCaregivers" Type="Self.PatientCaregivers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PatientCaregivers">
+              <PropertyRef Name="CaregiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PatientCaregivers_Patients">
+          <End Role="Patients" Type="Self.Patients" Multiplicity="1" />
+          <End Role="PatientCaregivers" Type="Self.PatientCaregivers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patients">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PatientCaregivers">
+              <PropertyRef Name="PatientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Patients_AspNetUsers">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+          <End Role="Patients" Type="Self.Patients" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Patients">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PerformedExercises_PrescribedExercises">
+          <End Role="PrescribedExercises" Type="Self.PrescribedExercises" Multiplicity="1" />
+          <End Role="PerformedExercises" Type="Self.PerformedExercises" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrescribedExercises">
+              <PropertyRef Name="PEId" />
+            </Principal>
+            <Dependent Role="PerformedExercises">
+              <PropertyRef Name="PEId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrescribedExercises_Exercises">
+          <End Role="Exercises" Type="Self.Exercises" Multiplicity="1" />
+          <End Role="PrescribedExercises" Type="Self.PrescribedExercises" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercises">
+              <PropertyRef Name="ExId" />
+            </Principal>
+            <Dependent Role="PrescribedExercises">
+              <PropertyRef Name="ExId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrescribedExercises_HospitalStay">
+          <End Role="HospitalStay" Type="Self.HospitalStay" Multiplicity="1" />
+          <End Role="PrescribedExercises" Type="Self.PrescribedExercises" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HospitalStay">
+              <PropertyRef Name="StayId" />
+            </Principal>
+            <Dependent Role="PrescribedExercises">
+              <PropertyRef Name="StayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PHYSIODBModelStoreContainer">
+          <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exercises" EntityType="Self.Exercises" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ExerciseVideos" EntityType="Self.ExerciseVideos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GiftReceived" EntityType="Self.GiftReceived" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Gifts" EntityType="Self.Gifts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HospitalStay" EntityType="Self.HospitalStay" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PatientCaregivers" EntityType="Self.PatientCaregivers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Patients" EntityType="Self.Patients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PerformedExercises" EntityType="Self.PerformedExercises" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PrescribedExercises" EntityType="Self.PrescribedExercises" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ExerciseVideos_Exercises" Association="Self.FK_ExerciseVideos_Exercises">
+            <End Role="Exercises" EntitySet="Exercises" />
+            <End Role="ExerciseVideos" EntitySet="ExerciseVideos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GiftReceived_Gifts" Association="Self.FK_GiftReceived_Gifts">
+            <End Role="Gifts" EntitySet="Gifts" />
+            <End Role="GiftReceived" EntitySet="GiftReceived" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GiftReceived_HospitalStay" Association="Self.FK_GiftReceived_HospitalStay">
+            <End Role="HospitalStay" EntitySet="HospitalStay" />
+            <End Role="GiftReceived" EntitySet="GiftReceived" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HospitalStay_AspNetUsers" Association="Self.FK_HospitalStay_AspNetUsers">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="HospitalStay" EntitySet="HospitalStay" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HospitalStay_Patients" Association="Self.FK_HospitalStay_Patients">
+            <End Role="Patients" EntitySet="Patients" />
+            <End Role="HospitalStay" EntitySet="HospitalStay" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PatientCaregivers_AspNetUsers" Association="Self.FK_PatientCaregivers_AspNetUsers">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="PatientCaregivers" EntitySet="PatientCaregivers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PatientCaregivers_Patients" Association="Self.FK_PatientCaregivers_Patients">
+            <End Role="Patients" EntitySet="Patients" />
+            <End Role="PatientCaregivers" EntitySet="PatientCaregivers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Patients_AspNetUsers" Association="Self.FK_Patients_AspNetUsers">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="Patients" EntitySet="Patients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PerformedExercises_PrescribedExercises" Association="Self.FK_PerformedExercises_PrescribedExercises">
+            <End Role="PrescribedExercises" EntitySet="PrescribedExercises" />
+            <End Role="PerformedExercises" EntitySet="PerformedExercises" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrescribedExercises_Exercises" Association="Self.FK_PrescribedExercises_Exercises">
+            <End Role="Exercises" EntitySet="Exercises" />
+            <End Role="PrescribedExercises" EntitySet="PrescribedExercises" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrescribedExercises_HospitalStay" Association="Self.FK_PrescribedExercises_HospitalStay">
+            <End Role="HospitalStay" EntitySet="HospitalStay" />
+            <End Role="PrescribedExercises" EntitySet="PrescribedExercises" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PHYSIODBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AspNetRole">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaim">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+          <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+          <NavigationProperty Name="PatientCaregivers" Relationship="Self.FK_PatientCaregivers_AspNetUsers" FromRole="AspNetUsers" ToRole="PatientCaregivers" />
+          <NavigationProperty Name="Patient" Relationship="Self.FK_Patients_AspNetUsers" FromRole="AspNetUsers" ToRole="Patients" />
+          <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+          <NavigationProperty Name="HospitalStays" Relationship="PHYSIODBModel.FK_HospitalStay_AspNetUsers" FromRole="AspNetUser" ToRole="HospitalStay" />
+        </EntityType>
+        <EntityType Name="ExerciseVideo">
+          <Key>
+            <PropertyRef Name="VId" />
+          </Key>
+          <Property Name="VId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ExId" Type="Int32" Nullable="false" />
+          <Property Name="VFileEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VFileMandarin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="VFileMalay" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="VFileTamil" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="VThumbnail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Exercis" Relationship="PHYSIODBModel.FK_ExerciseVideos_Exercises" FromRole="ExerciseVideo" ToRole="Exercis" />
+        </EntityType>
+        <EntityType Name="PatientCaregiver">
+          <Key>
+            <PropertyRef Name="PatientId" />
+            <PropertyRef Name="CaregiverId" />
+          </Key>
+          <Property Name="PatientId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CaregiverId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_PatientCaregivers_AspNetUsers" FromRole="PatientCaregivers" ToRole="AspNetUsers" />
+          <NavigationProperty Name="Patient" Relationship="Self.FK_PatientCaregivers_Patients" FromRole="PatientCaregivers" ToRole="Patients" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PatientCodeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AspNetUser" Relationship="Self.FK_Patients_AspNetUsers" FromRole="Patients" ToRole="AspNetUsers" />
+          <NavigationProperty Name="PatientCaregivers" Relationship="Self.FK_PatientCaregivers_Patients" FromRole="Patients" ToRole="PatientCaregivers" />
+          <Property Name="PreferredLanguage" Type="Int32" />
+          <NavigationProperty Name="HospitalStays" Relationship="PHYSIODBModel.FK_HospitalStay_Patients" FromRole="Patient" ToRole="HospitalStay" />
+        </EntityType>
+        <EntityType Name="PerformedExercis">
+          <Key>
+            <PropertyRef Name="PerformExId" />
+          </Key>
+          <Property Name="PerformExId" Type="Int32" Nullable="false" />
+          <Property Name="PEId" Type="Int32" Nullable="false" />
+          <Property Name="StartTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ExSetNo" Type="Int32" Nullable="false" />
+          <Property Name="ExRepNo" Type="Int32" Nullable="false" />
+          <Property Name="ExType" Type="Int32" Nullable="false" />
+          <Property Name="AvgAngle" Type="Double" Nullable="false" />
+          <Property Name="AvgHoldDuration" Type="Double" />
+          <Property Name="ExVisualFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="PrescribedExercis" Relationship="Self.FK_PerformedExercises_PrescribedExercises" FromRole="PerformedExercises" ToRole="PrescribedExercises" />
+          <Property Name="Score" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PrescribedExercis">
+          <Key>
+            <PropertyRef Name="PEId" />
+          </Key>
+          <Property Name="PEId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StayId" Type="Int32" Nullable="false" />
+          <Property Name="ExId" Type="Int32" Nullable="false" />
+          <Property Name="AssignedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndDate" Type="DateTime" Precision="3" />
+          <Property Name="ExSetNo" Type="Int32" Nullable="false" />
+          <Property Name="ExRepNo" Type="Int32" Nullable="false" />
+          <Property Name="ExTimePerDay" Type="Int32" Nullable="false" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="PerformedExercises" Relationship="Self.FK_PerformedExercises_PrescribedExercises" FromRole="PrescribedExercises" ToRole="PerformedExercises" />
+          <NavigationProperty Name="HospitalStay" Relationship="PHYSIODBModel.FK_PrescribedExercises_HospitalStay" FromRole="PrescribedExercis" ToRole="HospitalStay" />
+          <NavigationProperty Name="Exercis" Relationship="PHYSIODBModel.FK_PrescribedExercises_Exercises" FromRole="PrescribedExercis" ToRole="Exercis" />
+        </EntityType>
+        <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserClaims" Type="Self.AspNetUserClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserLogins" Type="Self.AspNetUserLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PatientCaregivers_AspNetUsers">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1" />
+          <End Role="PatientCaregivers" Type="Self.PatientCaregiver" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PatientCaregivers">
+              <PropertyRef Name="CaregiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Patients_AspNetUsers">
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1" />
+          <End Role="Patients" Type="Self.Patient" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Patients">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PatientCaregivers_Patients">
+          <End Role="Patients" Type="Self.Patient" Multiplicity="1" />
+          <End Role="PatientCaregivers" Type="Self.PatientCaregiver" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patients">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PatientCaregivers">
+              <PropertyRef Name="PatientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PerformedExercises_PrescribedExercises">
+          <End Role="PrescribedExercises" Type="Self.PrescribedExercis" Multiplicity="1" />
+          <End Role="PerformedExercises" Type="Self.PerformedExercis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrescribedExercises">
+              <PropertyRef Name="PEId" />
+            </Principal>
+            <Dependent Role="PerformedExercises">
+              <PropertyRef Name="PEId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AspNetUserRoles">
+          <End Role="AspNetRoles" Type="Self.AspNetRole" Multiplicity="*" />
+          <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="PHYSIODBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRole" />
+          <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaim" />
+          <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogin" />
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUser" />
+          <EntitySet Name="ExerciseVideos" EntityType="Self.ExerciseVideo" />
+          <EntitySet Name="PatientCaregivers" EntityType="Self.PatientCaregiver" />
+          <EntitySet Name="Patients" EntityType="Self.Patient" />
+          <EntitySet Name="PerformedExercises" EntityType="Self.PerformedExercis" />
+          <EntitySet Name="PrescribedExercises" EntityType="Self.PrescribedExercis" />
+          <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PatientCaregivers_AspNetUsers" Association="Self.FK_PatientCaregivers_AspNetUsers">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="PatientCaregivers" EntitySet="PatientCaregivers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Patients_AspNetUsers" Association="Self.FK_Patients_AspNetUsers">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="Patients" EntitySet="Patients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PatientCaregivers_Patients" Association="Self.FK_PatientCaregivers_Patients">
+            <End Role="Patients" EntitySet="Patients" />
+            <End Role="PatientCaregivers" EntitySet="PatientCaregivers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PerformedExercises_PrescribedExercises" Association="Self.FK_PerformedExercises_PrescribedExercises">
+            <End Role="PrescribedExercises" EntitySet="PrescribedExercises" />
+            <End Role="PerformedExercises" EntitySet="PerformedExercises" />
+          </AssociationSet>
+          <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+          </AssociationSet>
+          <EntitySet Name="GiftReceiveds" EntityType="PHYSIODBModel.GiftReceived" />
+          <EntitySet Name="Gifts" EntityType="PHYSIODBModel.Gift" />
+          <AssociationSet Name="FK_GiftReceived_Gifts" Association="PHYSIODBModel.FK_GiftReceived_Gifts">
+            <End Role="Gift" EntitySet="Gifts" />
+            <End Role="GiftReceived" EntitySet="GiftReceiveds" />
+          </AssociationSet>
+          <EntitySet Name="HospitalStays" EntityType="PHYSIODBModel.HospitalStay" />
+          <AssociationSet Name="FK_HospitalStay_AspNetUsers" Association="PHYSIODBModel.FK_HospitalStay_AspNetUsers">
+            <End Role="AspNetUser" EntitySet="AspNetUsers" />
+            <End Role="HospitalStay" EntitySet="HospitalStays" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GiftReceived_HospitalStay" Association="PHYSIODBModel.FK_GiftReceived_HospitalStay">
+            <End Role="HospitalStay" EntitySet="HospitalStays" />
+            <End Role="GiftReceived" EntitySet="GiftReceiveds" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HospitalStay_Patients" Association="PHYSIODBModel.FK_HospitalStay_Patients">
+            <End Role="Patient" EntitySet="Patients" />
+            <End Role="HospitalStay" EntitySet="HospitalStays" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrescribedExercises_HospitalStay" Association="PHYSIODBModel.FK_PrescribedExercises_HospitalStay">
+            <End Role="HospitalStay" EntitySet="HospitalStays" />
+            <End Role="PrescribedExercis" EntitySet="PrescribedExercises" />
+          </AssociationSet>
+          <EntitySet Name="Exercises" EntityType="PHYSIODBModel.Exercis" />
+          <AssociationSet Name="FK_ExerciseVideos_Exercises" Association="PHYSIODBModel.FK_ExerciseVideos_Exercises">
+            <End Role="Exercis" EntitySet="Exercises" />
+            <End Role="ExerciseVideo" EntitySet="ExerciseVideos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrescribedExercises_Exercises" Association="PHYSIODBModel.FK_PrescribedExercises_Exercises">
+            <End Role="Exercis" EntitySet="Exercises" />
+            <End Role="PrescribedExercis" EntitySet="PrescribedExercises" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="GiftReceived">
+          <Key>
+            <PropertyRef Name="GiftReceivedId" />
+          </Key>
+          <Property Name="GiftReceivedId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StayId" Type="Int32" Nullable="false" />
+          <Property Name="GiftTypeId" Type="Int32" Nullable="false" />
+          <Property Name="ReceivedDateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="GivenById" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Gift" Relationship="PHYSIODBModel.FK_GiftReceived_Gifts" FromRole="GiftReceived" ToRole="Gift" />
+          <NavigationProperty Name="HospitalStay" Relationship="PHYSIODBModel.FK_GiftReceived_HospitalStay" FromRole="GiftReceived" ToRole="HospitalStay" />
+        </EntityType>
+        <EntityType Name="Gift">
+          <Key>
+            <PropertyRef Name="GiftTypeId" />
+          </Key>
+          <Property Name="GiftTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="GiftReceiveds" Relationship="PHYSIODBModel.FK_GiftReceived_Gifts" FromRole="Gift" ToRole="GiftReceived" />
+        </EntityType>
+        <Association Name="FK_GiftReceived_Gifts">
+          <End Type="PHYSIODBModel.Gift" Role="Gift" Multiplicity="1" />
+          <End Type="PHYSIODBModel.GiftReceived" Role="GiftReceived" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gift">
+              <PropertyRef Name="GiftTypeId" />
+            </Principal>
+            <Dependent Role="GiftReceived">
+              <PropertyRef Name="GiftTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="HospitalStay">
+          <Key>
+            <PropertyRef Name="StayId" />
+          </Key>
+          <Property Name="StayId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PatientId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Pose" Type="Int32" Nullable="false" />
+          <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="PhysiotherapistId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUser" Relationship="PHYSIODBModel.FK_HospitalStay_AspNetUsers" FromRole="HospitalStay" ToRole="AspNetUser" />
+          <NavigationProperty Name="GiftReceiveds" Relationship="PHYSIODBModel.FK_GiftReceived_HospitalStay" FromRole="HospitalStay" ToRole="GiftReceived" />
+          <NavigationProperty Name="Patient" Relationship="PHYSIODBModel.FK_HospitalStay_Patients" FromRole="HospitalStay" ToRole="Patient" />
+          <NavigationProperty Name="PrescribedExercises" Relationship="PHYSIODBModel.FK_PrescribedExercises_HospitalStay" FromRole="HospitalStay" ToRole="PrescribedExercis" />
+        </EntityType>
+        <Association Name="FK_HospitalStay_AspNetUsers">
+          <End Type="PHYSIODBModel.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+          <End Type="PHYSIODBModel.HospitalStay" Role="HospitalStay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUser">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="HospitalStay">
+              <PropertyRef Name="PhysiotherapistId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GiftReceived_HospitalStay">
+          <End Type="PHYSIODBModel.HospitalStay" Role="HospitalStay" Multiplicity="1" />
+          <End Type="PHYSIODBModel.GiftReceived" Role="GiftReceived" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HospitalStay">
+              <PropertyRef Name="StayId" />
+            </Principal>
+            <Dependent Role="GiftReceived">
+              <PropertyRef Name="StayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HospitalStay_Patients">
+          <End Type="PHYSIODBModel.Patient" Role="Patient" Multiplicity="1" />
+          <End Type="PHYSIODBModel.HospitalStay" Role="HospitalStay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Patient">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="HospitalStay">
+              <PropertyRef Name="PatientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrescribedExercises_HospitalStay">
+          <End Type="PHYSIODBModel.HospitalStay" Role="HospitalStay" Multiplicity="1" />
+          <End Type="PHYSIODBModel.PrescribedExercis" Role="PrescribedExercis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HospitalStay">
+              <PropertyRef Name="StayId" />
+            </Principal>
+            <Dependent Role="PrescribedExercis">
+              <PropertyRef Name="StayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Exercis">
+          <Key>
+            <PropertyRef Name="ExId" />
+          </Key>
+          <Property Name="ExId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ExName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExNameMandarin" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExNameMalay" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExNameTamil" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExSetNo" Type="Int32" Nullable="false" />
+          <Property Name="ExRepNo" Type="Int32" Nullable="false" />
+          <Property Name="ExTimePerDay" Type="Int32" Nullable="false" />
+          <Property Name="ExAngleMeasureType" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExAngleStandingPose" Type="Double" />
+          <Property Name="ExAngleLyingPose" Type="Double" />
+          <Property Name="ExHoldDuration" Type="Double" />
+          <Property Name="LastUpdated" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastUpdatedBy" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ExerciseVideos" Relationship="PHYSIODBModel.FK_ExerciseVideos_Exercises" FromRole="Exercis" ToRole="ExerciseVideo" />
+          <NavigationProperty Name="PrescribedExercises" Relationship="PHYSIODBModel.FK_PrescribedExercises_Exercises" FromRole="Exercis" ToRole="PrescribedExercis" />
+        </EntityType>
+        <Association Name="FK_ExerciseVideos_Exercises">
+          <End Type="PHYSIODBModel.Exercis" Role="Exercis" Multiplicity="1" />
+          <End Type="PHYSIODBModel.ExerciseVideo" Role="ExerciseVideo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercis">
+              <PropertyRef Name="ExId" />
+            </Principal>
+            <Dependent Role="ExerciseVideo">
+              <PropertyRef Name="ExId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrescribedExercises_Exercises">
+          <End Type="PHYSIODBModel.Exercis" Role="Exercis" Multiplicity="1" />
+          <End Type="PHYSIODBModel.PrescribedExercis" Role="PrescribedExercis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercis">
+              <PropertyRef Name="ExId" />
+            </Principal>
+            <Dependent Role="PrescribedExercis">
+              <PropertyRef Name="ExId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PHYSIODBModelStoreContainer" CdmEntityContainer="PHYSIODBEntities">
+          <EntitySetMapping Name="AspNetRoles">
+            <EntityTypeMapping TypeName="PHYSIODBModel.AspNetRole">
+              <MappingFragment StoreEntitySet="AspNetRoles">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserClaims">
+            <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUserClaim">
+              <MappingFragment StoreEntitySet="AspNetUserClaims">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserLogins">
+            <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUserLogin">
+              <MappingFragment StoreEntitySet="AspNetUserLogins">
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+                <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUsers">
+            <EntityTypeMapping TypeName="PHYSIODBModel.AspNetUser">
+              <MappingFragment StoreEntitySet="AspNetUsers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ExerciseVideos">
+            <EntityTypeMapping TypeName="PHYSIODBModel.ExerciseVideo">
+              <MappingFragment StoreEntitySet="ExerciseVideos">
+                <ScalarProperty Name="VThumbnail" ColumnName="VThumbnail" />
+                <ScalarProperty Name="VId" ColumnName="VId" />
+                <ScalarProperty Name="ExId" ColumnName="ExId" />
+                <ScalarProperty Name="VFileEnglish" ColumnName="VFileEnglish" />
+                <ScalarProperty Name="VFileMandarin" ColumnName="VFileMandarin" />
+                <ScalarProperty Name="VFileMalay" ColumnName="VFileMalay" />
+                <ScalarProperty Name="VFileTamil" ColumnName="VFileTamil" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PatientCaregivers">
+            <EntityTypeMapping TypeName="PHYSIODBModel.PatientCaregiver">
+              <MappingFragment StoreEntitySet="PatientCaregivers">
+                <ScalarProperty Name="PatientId" ColumnName="PatientId" />
+                <ScalarProperty Name="CaregiverId" ColumnName="CaregiverId" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patients">
+            <EntityTypeMapping TypeName="PHYSIODBModel.Patient">
+              <MappingFragment StoreEntitySet="Patients">
+                <ScalarProperty Name="PreferredLanguage" ColumnName="PreferredLanguage" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PatientCodeName" ColumnName="PatientCodeName" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PerformedExercises">
+            <EntityTypeMapping TypeName="PHYSIODBModel.PerformedExercis">
+              <MappingFragment StoreEntitySet="PerformedExercises">
+                <ScalarProperty Name="Score" ColumnName="Score" />
+                <ScalarProperty Name="PerformExId" ColumnName="PerformExId" />
+                <ScalarProperty Name="PEId" ColumnName="PEId" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+                <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+                <ScalarProperty Name="ExType" ColumnName="ExType" />
+                <ScalarProperty Name="AvgAngle" ColumnName="AvgAngle" />
+                <ScalarProperty Name="AvgHoldDuration" ColumnName="AvgHoldDuration" />
+                <ScalarProperty Name="ExVisualFile" ColumnName="ExVisualFile" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrescribedExercises">
+            <EntityTypeMapping TypeName="PHYSIODBModel.PrescribedExercis">
+              <MappingFragment StoreEntitySet="PrescribedExercises">
+                <ScalarProperty Name="PEId" ColumnName="PEId" />
+                <ScalarProperty Name="StayId" ColumnName="StayId" />
+                <ScalarProperty Name="ExId" ColumnName="ExId" />
+                <ScalarProperty Name="AssignedDate" ColumnName="AssignedDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+                <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+                <ScalarProperty Name="ExTimePerDay" ColumnName="ExTimePerDay" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="AspNetUserRoles" TypeName="PHYSIODBModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+            <EndProperty Name="AspNetRoles">
+              <ScalarProperty Name="Id" ColumnName="RoleId" />
+            </EndProperty>
+            <EndProperty Name="AspNetUsers">
+              <ScalarProperty Name="Id" ColumnName="UserId" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <EntitySetMapping Name="GiftReceiveds">
+            <EntityTypeMapping TypeName="PHYSIODBModel.GiftReceived">
+              <MappingFragment StoreEntitySet="GiftReceived">
+                <ScalarProperty Name="GivenById" ColumnName="GivenById" />
+                <ScalarProperty Name="ReceivedDateTime" ColumnName="ReceivedDateTime" />
+                <ScalarProperty Name="GiftTypeId" ColumnName="GiftTypeId" />
+                <ScalarProperty Name="StayId" ColumnName="StayId" />
+                <ScalarProperty Name="GiftReceivedId" ColumnName="GiftReceivedId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Gifts">
+            <EntityTypeMapping TypeName="PHYSIODBModel.Gift">
+              <MappingFragment StoreEntitySet="Gifts">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="GiftTypeId" ColumnName="GiftTypeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HospitalStays">
+            <EntityTypeMapping TypeName="PHYSIODBModel.HospitalStay">
+              <MappingFragment StoreEntitySet="HospitalStay">
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="PhysiotherapistId" ColumnName="PhysiotherapistId" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="Pose" ColumnName="Pose" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="PatientId" ColumnName="PatientId" />
+                <ScalarProperty Name="StayId" ColumnName="StayId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Exercises">
+            <EntityTypeMapping TypeName="PHYSIODBModel.Exercis">
+              <MappingFragment StoreEntitySet="Exercises">
+                <ScalarProperty Name="LastUpdatedBy" ColumnName="LastUpdatedBy" />
+                <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+                <ScalarProperty Name="ExHoldDuration" ColumnName="ExHoldDuration" />
+                <ScalarProperty Name="ExAngleLyingPose" ColumnName="ExAngleLyingPose" />
+                <ScalarProperty Name="ExAngleStandingPose" ColumnName="ExAngleStandingPose" />
+                <ScalarProperty Name="ExAngleMeasureType" ColumnName="ExAngleMeasureType" />
+                <ScalarProperty Name="ExTimePerDay" ColumnName="ExTimePerDay" />
+                <ScalarProperty Name="ExRepNo" ColumnName="ExRepNo" />
+                <ScalarProperty Name="ExSetNo" ColumnName="ExSetNo" />
+                <ScalarProperty Name="ExDescription" ColumnName="ExDescription" />
+                <ScalarProperty Name="ExNameTamil" ColumnName="ExNameTamil" />
+                <ScalarProperty Name="ExNameMalay" ColumnName="ExNameMalay" />
+                <ScalarProperty Name="ExNameMandarin" ColumnName="ExNameMandarin" />
+                <ScalarProperty Name="ExName" ColumnName="ExName" />
+                <ScalarProperty Name="ExId" ColumnName="ExId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

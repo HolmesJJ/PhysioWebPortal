@@ -1,0 +1,402 @@
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\ApplicationInsights.config
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\csc.exe
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Collections.Immutable.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\vbc.exe
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll.config
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Owin.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\WebGrease.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Cors.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.Skins.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.xml
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll.licenses
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.Design.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\EnvDTE.dll
+c:\users\administrator\documents\visual studio 2015\Projects\PhysioWebPortal\PhysioWebPortal\bin\stdole.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csprojResolveAssemblyReference.cache
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll.licenses
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.pdb
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\ApplicationInsights.config
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\csc.exe
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Collections.Immutable.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Reflection.Metadata.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\vbc.exe
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe.config
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll.config
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.pdb
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.bootstrap.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.jQuery.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.WebForms.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Owin.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Cors.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.Design.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.Skins.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\WebGrease.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EnvDTE.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Flow.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Core.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AWSSDK.S3.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AnalysisServices.AdomdClient.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AWSSDK.Core.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\stdole.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Zip.dll
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.pdb
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Flow.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Core.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\1nternship\TTSH\R&D\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Zip.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\ApplicationInsights.config
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\csc.exe
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Collections.Immutable.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Reflection.Metadata.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\vbc.exe
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe.config
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll.config
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.pdb
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.bootstrap.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.jQuery.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.WebForms.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Owin.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Cors.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\WebGrease.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EnvDTE.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Flow.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Core.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AWSSDK.S3.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AnalysisServices.AdomdClient.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\AWSSDK.Core.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\stdole.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Zip.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Web.UI.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.pdb
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Flow.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Core.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\bin\Telerik.Windows.Zip.xml
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll.licenses
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.pdb
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csprojAssemblyReference.cache
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csproj.CoreCompileInputs.cache
+D:\1nternship\Ku Yan Wei\Development\PhysioWebPortal\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\ApplicationInsights.config
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\csc.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\vbc.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\PhysioWebPortal.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Owin.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Cors.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\WebGrease.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\EnvDTE.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\stdole.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Cors.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\System.Web.Providers.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\PhysioWebPortal\PhysioWebPortal\obj\Debug\PhysioWebPortal.pdb
